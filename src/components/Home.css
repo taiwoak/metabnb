@@ -1,0 +1,757 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
+
+
+/* Main Nav */
+.Nav-bar {
+    margin-top: 30px;
+}
+
+#nav-image {
+    width: 233px;
+    height: 38px;
+}
+
+.nav-item {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #434343; 
+    margin-top: 5px; 
+}
+
+.nav-button {
+    width: 170px;
+    height: 48px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+    .nav-button {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+ 
+    #nav-image {
+        width: 174.75px;
+        height: 28.5px;
+    }
+}
+
+/* Hero Section */
+
+#hero-container {
+    padding-top: 125px;
+    padding-bottom: 67px;
+    gap: 80px;
+}
+
+/*.hero-section {
+    height: 400.08px;
+} */
+
+.hero-section h1 {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 140%; 
+    letter-spacing: -0.02em;
+    color: #434343; 
+    padding-bottom: 48px;   
+}
+
+.hero-span-h1 {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    background: linear-gradient(180deg, #A02279 79.31%, rgba(255, 192, 137, 0.6) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.hero-section p {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #434343;
+    padding-bottom: 48px;
+    padding-right: 40px;
+}
+
+#hero-input {
+    width: 360px;
+    height: 54px;
+    background: rgba(247, 247, 247, 0.1);
+    border: 1px solid #A3A3A3;
+    border-radius: 8px 0px 0px 8px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #B8B8B8;
+    padding: 18px 15px;
+    display: inline-block;
+}
+
+#hero-button {
+    width: 200px;
+    height: 54px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;    
+}
+
+#hero-image {
+    width: 428.4px;
+    height: 413.1px;
+}
+
+@media (min-width: 1440px) {
+    #hero-container {
+        gap: 140px;
+    }
+    #hero-input {
+        width: 390px;
+    }
+    #hero-button {
+        width: 230px;
+    }
+    #hero-image {
+        width: 476px;
+        height: 459px;
+    }
+    .hero-section h1 {
+        font-size: 56px;
+        line-height: 140%;   
+    }
+    
+    .hero-span-h1 {
+        font-size: 56px;
+        line-height: 140%;
+    }
+}
+
+@media (max-width: 767px) {
+    #hero-image {
+        margin-top: 130px;
+    }
+    .hero-section h1 {
+        font-size: 40px;
+        line-height: 140%;   
+    }
+    .hero-span-h1 {
+        font-size: 40px;
+        line-height: 140%;
+    }
+    #hero-input {
+        width: 300px;
+    }
+    #hero-button {
+        width: 150px;
+    }
+}
+
+@media (max-width: 575px) {
+    #hero-container {
+        padding-top: 75px;
+        padding-bottom: 20px;
+        gap: 0px;
+    }
+    .hero-section h1 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 140%;
+        padding-bottom: 14px;   
+    }
+    .hero-section p {
+        text-align: center;
+        font-size: 20px;
+        line-height: 35px;
+        padding-bottom: 14px;
+    }
+    .hero-span-h1 {
+        font-size: 30px;
+        line-height: 140%;
+    }
+    #hero-image {
+        width: 333.2px;
+        height: 321.3px;
+        display: block;
+        margin: 0 auto;
+    }
+    #hero-input {
+        width: 240px;
+    }
+    #hero-button {
+        width: 90px;
+    }
+    #hero-search {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+}
+
+/* Sponsors Section */
+
+#sponsor-container {
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    height: 70px;
+}
+
+#mb-token {
+    width: 222px;
+    height: 50px;
+}
+
+#meta-mask {
+    width: 214.14px;
+    height: 37.56px;
+}
+
+#open-sea {
+    width: 198.32px;
+    height: 40.79px;    
+}
+
+@media (max-width: 575px) {
+    #sponsor-container {
+        margin-top: 20px;
+        height: 50px;
+    }
+    #mb-token {
+        width: 111px;
+        height: 25px;
+    }
+    
+    #meta-mask {
+        width: 107.07px;
+        height: 18.78px;
+    }
+    
+    #open-sea {
+        width: 99.16px;
+        height: 20.395px;    
+    }
+}
+
+/* Inspiration Section */
+
+
+.inspiration-h1 {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+    text-align: center;
+    padding-top: 58px;
+    padding-bottom: 43px;
+}
+
+.card-container {
+    width: 292px;
+    height: 372px;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #D7D7D7;
+    border-radius: 15px;
+    padding: 16px;
+}
+
+#meta-img {
+    width: 260px;
+    height: 265px;  
+}
+
+
+.card-span1 {
+    padding-top: 16px;
+}
+
+.card-p {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #434343;
+}
+
+.card-h3 {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    color: #434343;
+}
+
+.card-span2 {
+    margin-top: -6px;
+}
+
+.card-p2 {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #434343;
+}
+
+.card-p3 {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #434343;
+}
+
+#five-stars {
+    margin-top: -22px;
+}
+
+.inspiration-row2 {
+    margin-top: 24px;
+}
+
+@media (min-width: 1440px) {
+    .inspiration-row2 {
+        margin-top: 35px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .card-container {
+        width: 266px;
+        height: 345.5px;
+      
+    }
+    
+    #meta-img {
+        width: 234px;
+        height: 238.5px;  
+    }  
+}
+
+@media (max-width: 992px) {
+   .metabnb-3, .metabnb-4, .metabnb-7, .metabnb-8 {
+     margin-top: 35px;
+   }
+}
+
+@media (max-width: 767px) {
+    .inspiration-h1 {
+        font-size: 32px;
+        line-height: 48px;
+        padding-top: 38px;
+        padding-bottom: 23px; 
+    }
+    .inspiration-container {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .inspiration-row2 {
+        margin-top: 35px;
+    }
+    .metabnb-2, .metabnb-6 {
+      margin-top: 35px;
+    }
+    .metabnb-3, .metabnb-4, .metabnb-7, .metabnb-8 {
+        margin-top: 35px;
+    }
+}
+
+
+/* Metabnb NFT Section */
+
+#nft-container {
+    margin-top: 53px;
+    height: 774px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border: 1px solid #000000;
+    padding: 100px 99px 99.15px 100px;
+    gap: 80px;
+}
+
+.nft-section h1 {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;  
+    padding-bottom: 35px;  
+}
+
+.nft-section p {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 57.55px;
+}
+
+#nft-button {
+    width: 156px;
+    height: 48px;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #A02279
+}
+
+#nft-img {
+    width: 633.6px;
+    height: 517.5px;
+}
+
+@media (min-width: 1440px) {
+    #nft-img {
+        width: 704px;
+        height: 575px;
+    }
+}
+
+@media (max-width: 992px) {
+    #nft-container {
+        height: 900px;
+    }
+    #nft-img {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #nft-img {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 565px) {
+
+    #nft-container {
+        padding: 50px 50px 50px 50px;
+        height: 850px;
+    }
+    #nft-img {
+        width: 281.6px;
+        height: 230px;
+        margin-top: 50px;
+    }
+
+    .nft-section p, .nft-section h1 {
+        padding-bottom: 20px;
+    }
+
+    .nft-section h1 {
+        font-size: 35px;
+    }
+}
+
+
+/*  Footer Section */
+
+#footer-container {
+    background: #1D1D1E;
+    padding-top: 58px;
+    padding-bottom: 37px;
+}
+
+#footer-container a {
+    text-decoration: none;
+}
+
+#footer-metabnb {
+    width: 233px;
+    height: 40px;
+    margin-bottom: 86px;
+}
+
+.footer-span {
+    gap: 18px;
+    padding-bottom: 56.5px;
+}
+
+#facebook {
+    width: 18px;
+    height: 18px;
+}
+#instagram {
+    width: 18px;
+    height: 18px;
+}
+#twitter {
+    width: 18px;
+    height: 18px;
+}
+
+.footer-div1p {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #F7F7F7;
+}
+
+.footer-div2 h3 {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-bottom: 23px;
+}
+
+.footer-div2 p {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    color: #F1F3F9;
+    margin-top: -16px;
+}
+
+
+@media (max-width: 767px) {
+    #footer-metabnb {
+        display: block;
+        margin: 0 auto;
+    }
+   .footer-span {
+     width: 90px;
+     margin: 0 auto;
+     padding-bottom: 30px;
+     padding-top: 30px;
+
+   }
+
+   #footer-container h1, #footer-container h3, #footer-container p {
+    text-align: center;
+   }
+
+   .footer-div1 {
+    padding-bottom: 10px;
+   }
+}
+
+
+/*  Connect Wallet Modals */
+
+.wallet-overlay {
+    width: 100%;
+    height: 100vh;
+    background: rgba(64, 64, 64, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.wallet-container {
+    width: 600px;
+    height: 326px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.wallet-div1 {
+    height: 78px;
+    padding: 24px 32px;
+}
+
+.wallet-div1 h1 {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333;
+}
+
+#wallet-x {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.wallet-hr {
+    height: 0px;
+    border: 1px solid #CFD8DC;
+}
+
+.wallet-div2 {
+    height: 248px;
+    padding: 32px;
+}
+
+.wallet-div2 p {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #333333;
+}
+
+.wallet-div2a {  
+    width: 536px;
+    height: 68px;
+    padding: 12px 20px; 
+    background: #F8F9FA;
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+#wallet-meta {
+    width: 156px;
+    height: 44px;
+}
+
+#wallet-arrow {
+    width: 10px;
+    height: 16px;
+}
+
+.wallet-div2b {
+    width: 536px;
+    height: 64px;
+    padding: 12px 20px;
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+}
+
+#wallet-wall {
+    width: 196px;
+    height: 40px;
+}
+
+@media (max-width: 767px) {
+    .wallet-container {
+        width: 80%;
+    }
+    .wallet-div2a, .wallet-div2b {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    #wallet-meta {
+        width: 78px;
+        height: 22px;
+    }
+    #wallet-wall {
+        width: 98px;
+        height: 20px;
+    }
+}
+
+/* Place to Stay Page */
+
+.place-div1 {
+    padding-top: 117px;
+    padding-bottom: 75px;
+}
+
+
+.place-div1 p {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #434343;
+}
+
+#place-div1p {
+    position: relative;
+    top: 10px;
+}
+
+#place-div1ap {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center; 
+    color: #333333
+}
+
+.place-div1a {
+    width: 161px;
+    height: 48px;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    padding: 14px 13px;
+}
+
+#place-settings {
+    width: 24px;
+    height: 24px;
+}
+
+.place-card-row {
+    margin-bottom: 70px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .place-div1 p, #place-div1ap {
+        font-size: 80%;
+        line-height: 80%;
+    }
+}
