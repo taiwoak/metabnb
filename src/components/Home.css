@@ -196,6 +196,7 @@
         font-size: 20px;
         line-height: 35px;
         padding-bottom: 14px;
+        padding-right:0px;
     }
     .hero-span-h1 {
         font-size: 30px;
@@ -753,5 +754,12 @@
     .place-div1 p, #place-div1ap {
         font-size: 80%;
         line-height: 80%;
+    }
+}
+
+@media (max-width: 575px) {
+    .placediv1 {
+        padding-top: 65px;
+        padding-bottom:65px;
     }
 }
